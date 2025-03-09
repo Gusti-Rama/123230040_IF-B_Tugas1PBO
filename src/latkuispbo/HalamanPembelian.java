@@ -13,14 +13,14 @@ public class HalamanPembelian extends JFrame implements ActionListener {
     JLabel labelJudul = new JLabel("Halaman Pembelian");
     JLabel labelKategori = new JLabel();
     JLabel labelHarga = new JLabel();
-    JLabel labelJumlah = new JLabel("Jumlah: ");
+    JLabel labelJumlah = new JLabel();
     JTextField inputJumlah = new JTextField();
     JButton buttonBeli = new JButton("Beli");
     JButton buttonKembali = new JButton("Kembali");
 
     JLabel labelTotalPembelian = new JLabel("Total Pembelian");
     JLabel labelHargaSatuan = new JLabel("Harga Satuan: ");
-    JLabel labelJumlahBeli = new JLabel();
+    JLabel labelJumlahBeli = new JLabel("Jumlah: ");
     JLabel labelTotalHarga = new JLabel("Total Harga: ");
 
     JLabel valueHargaSatuan = new JLabel();

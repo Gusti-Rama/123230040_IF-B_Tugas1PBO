@@ -72,7 +72,7 @@ public class LoginPage extends JFrame implements ActionListener {
                 new HomePage(username);
                 this.dispose();
             } else {
-                JOptionPane.showMessageDialog(this, "Login Gagal! Periksa kembali username dan password.");
+                JOptionPane.showMessageDialog(this, "Login Gagal! Periksa kembali username dan password.", "Login Error", JOptionPane.ERROR_MESSAGE);
             }
         } else if(e.getSource() == buttonReset) {
             usernameTextField.setText("");
