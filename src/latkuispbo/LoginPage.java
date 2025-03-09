@@ -67,7 +67,7 @@ public class LoginPage extends JFrame implements ActionListener {
                 String username = usernameTextField.getText();
                 String password = new String(passwordTextField.getPassword()); // Mengambil password dari JPasswordField
             // Contoh validasi sederhana
-            if (username.equals("a") && password.equals("a")) {
+            if (username.equals("123230040") && password.equals("pass12345")) {
                 JOptionPane.showMessageDialog(this, "Login Berhasil!");
                 new HomePage(username);
                 this.dispose();
