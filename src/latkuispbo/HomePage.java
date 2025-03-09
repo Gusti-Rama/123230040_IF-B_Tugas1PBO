@@ -4,9 +4,9 @@
  */
 package latkuispbo;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 /**
  *
@@ -25,7 +25,7 @@ public class HomePage extends JFrame implements ActionListener {
             this.username = username;
             setVisible(true);
             setSize(480,480);
-            setTitle("Halaman Utamas");
+            setTitle("Halaman Utama");
             setLocationRelativeTo(null);
             setAlwaysOnTop(true);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -44,17 +44,17 @@ public class HomePage extends JFrame implements ActionListener {
             labelDeskripsi.setFont(new Font("Aptos", Font.PLAIN, 14));
             labelDeskripsi.setBounds(20,100,400,20);
             
-            buttonAnak.setBounds(20, 150, 440, 32);
+            buttonAnak.setBounds(20, 150, 430, 32);
             buttonAnak.setBackground(Color.LIGHT_GRAY);
             buttonAnak.setForeground(Color.BLACK);
             buttonAnak.addActionListener(this);
             
-            buttonRemaja.setBounds(20, 200, 440, 32);
+            buttonRemaja.setBounds(20, 200, 430, 32);
             buttonRemaja.setBackground(Color.LIGHT_GRAY);
             buttonRemaja.setForeground(Color.BLACK);
             buttonRemaja.addActionListener(this);
             
-            buttonDewasa.setBounds(20, 250, 440, 32);
+            buttonDewasa.setBounds(20, 250, 430, 32);
             buttonDewasa.setBackground(Color.LIGHT_GRAY);
             buttonDewasa.setForeground(Color.BLACK);
             buttonDewasa.addActionListener(this);

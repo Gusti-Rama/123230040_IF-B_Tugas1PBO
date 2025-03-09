@@ -20,7 +20,7 @@ public class HalamanPembelian extends JFrame implements ActionListener {
 
     JLabel labelTotalPembelian = new JLabel("Total Pembelian");
     JLabel labelHargaSatuan = new JLabel("Harga Satuan: ");
-    JLabel labelJumlahBeli = new JLabel("Jumlah: ");
+    JLabel labelJumlahBeli = new JLabel();
     JLabel labelTotalHarga = new JLabel("Total Harga: ");
 
     JLabel valueHargaSatuan = new JLabel();
@@ -61,27 +61,28 @@ public class HalamanPembelian extends JFrame implements ActionListener {
 
         labelJudul.setBounds(20, 20, 200, 25);
 
-        labelKategori.setText("Kategori: " + kategori);
-        labelKategori.setBounds(20, 40, 200, 25);
+        labelKategori.setText("Kategori        : " + kategori);
+        labelKategori.setBounds(20, 50, 400, 25);
 
-        labelHarga.setText("Harga: Rp. " + hargaPerMajalah + " /pcs");
-        labelHarga.setBounds(20, 80, 200, 25);
+        labelHarga.setText   ("Harga           : Rp. " + hargaPerMajalah + " /pcs");
+        labelHarga.setBounds(20, 90, 400, 25);
 
-        labelJumlah.setBounds(20, 120, 100, 25);
-        inputJumlah.setBounds(120, 120, 100, 30);
+        labelJumlah.setText  ("Jumlah          : ");
+        labelJumlah.setBounds(20, 130, 120, 25);
+        inputJumlah.setBounds(140, 130, 100, 30);
 
-        buttonKembali.setBounds(20, 170, 100, 32);
+        buttonKembali.setBounds(20, 170, 200, 32);
         buttonKembali.setBackground(Color.LIGHT_GRAY);
         buttonKembali.setForeground(Color.BLACK);
         buttonKembali.addActionListener(this);
 
-        buttonBeli.setBounds(130, 170, 100, 32);
+        buttonBeli.setBounds(240, 170, 200, 32);
         buttonBeli.setBackground(Color.LIGHT_GRAY);
         buttonBeli.setForeground(Color.BLACK);
         buttonBeli.addActionListener(this);
 
-        labelTotalPembelian.setBounds(20, 210, 200, 25);
-        labelTotalPembelian.setFont(new Font("Arial", Font.BOLD, 14));
+        labelTotalPembelian.setBounds(20, 220, 200, 25);
+        labelTotalPembelian.setFont(new Font("Arial", Font.BOLD, 16));
 
         labelHargaSatuan.setBounds(20, 240, 150, 25);
         valueHargaSatuan.setText("Rp. " + hargaPerMajalah);
